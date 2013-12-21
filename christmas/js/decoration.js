@@ -4,7 +4,7 @@ document.onreadystatechange = function(){
 	    $('#merrychristmas').fadeIn(3000,function(){
 		$('#sincerely').fadeIn(1000);
 		$('#bycoyouth').fadeIn(3000,function(){
-		    
+		    $(this).addClass('bigbigbig');
 		});
 	    });
 	});

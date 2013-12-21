@@ -17,7 +17,7 @@ window.onload = function(){
 	particles.push({
 	    x: Math.random()*W, //x-coordinate
 	    y: Math.random()*H, //y-coordinate
-	    r: Math.random()*4+1, //radius
+	    r: Math.random()*6+1, //radius
 	    d: Math.random()*mp //density
 	})
     }
