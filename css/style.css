@@ -1,0 +1,146 @@
+body {
+  background: url("/LC2013/img/bg.jpg");
+  background-size: 100%;
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, src=”/img/bg.jpg”, sizingMethod=’scale’);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.container {
+  padding-top: 60px;
+}
+
+.navbar {
+  position: fixed;
+  width: 100%;
+}
+
+.navbar .nav > li > a {
+  padding: 5px 5px;
+  color: #000000;
+}
+
+.navbar .nav ul a:hover {
+  background-color: #ff739d;
+}
+
+.navbar .nav > li > ul:before {
+  border-color: transparent transparent #ff407a transparent;
+}
+
+.navbar .nav > li > a:hover, .navbar .nav > li > a:focus {
+  color: #bf3058;
+}
+
+.navbar .nav ul li {
+  background-color: #ff407a;
+}
+
+.mynav li {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.navbar-default {
+  /*background: #ae00a6;*/
+}
+
+.header h1 {
+  color: #000000;
+  font-family: YouYuan, 幼圆, \5E7C\5706;
+  text-align: center;
+  font-weight: normal;
+}
+
+.header h2 {
+  color: #000000;
+  font-size: 2.12em;
+  text-align: center;
+  font-weight: normal;
+  font-family: Inconsolata, Andele Mono, Courier New, monospace;
+}
+
+.terminal-icon-border {
+  width: 380px;
+  height: 267px;
+  padding: 15px;
+  border-radius: 25px;
+  border-color: #ffbbff;
+  border-width: 15px;
+}
+
+.terminal-icon {
+  width: 100%;
+  height: 100%;
+  background-color: #280558;*/
+  border-radius: 15px;
+}
+
+.terminal-icon p {
+  font-size: 11.5em;
+  text-align; center;
+  font-family: Terminal, Inconsolata, monospace;
+  color: #f1eeee;
+  line-height: 1;
+}
+
+.padding10px {
+  padding: 10px;
+}
+
+.height240px {
+  height: 240px;
+}
+
+.height180px {
+  height: 180px;
+}
+
+.text-unit {
+  border-radius:15px;
+  width: 100%;
+  padding: 10px;
+  color: #a600a6;
+  text-align: center;
+}
+
+.text-unit h2 {
+  font-size: 42px;
+  line-height: 1;
+  font-family: YouYuan, 幼圆, \5E7C\5706;
+}
+
+.text-unit p {
+  line-height: 1.2;
+  font-family: YouYuan, 幼圆, \5E7C\5706;
+}
+
+.bg-red {
+  background-color: #a60032;	
+}
+
+.bg-blue {
+  background-color: #4b07a6;	
+}
+
+.bg-yellow {
+  background-color: #ff73ff;
+}
+
+.bg-white {
+  background: #e7e7e7;
+}
+
+.makecenter {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.sponsors-logo {
+  background: #e7e7e7;
+  border-radius: 15px;
+}
+

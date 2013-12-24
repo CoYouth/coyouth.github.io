@@ -14,7 +14,7 @@ body {
 }
 
 #loading-t {
-    padding: 480px 0 0 0;
+    padding: 280px 0 0 0;
     text-align: center;
     vertical-align: middle;
     color: #fff;
@@ -54,7 +54,7 @@ canvas {
 #bycoyouth {
     padding-right: 75px;
     font-weight: bold;
-    color: #fff;
+    color: #ddd;
     text-align: right;
     -webkit-text-stroke: 1px black;
     letter-spacing: 0.04em;
@@ -66,7 +66,7 @@ canvas {
 
 #bycoyouth>a {
     text-decoration: none;
-    color: #fff;
+    color: #ddd;
     -webkit-text-stroke: 1px black;
 }
 
@@ -78,8 +78,8 @@ canvas {
 }
 
 .bigbigbig:hover {
-    -webkit-transform: translateX(-125px) scale(1.15) rotate(-2deg);
-    -moz-transform: translateX(-125px) scale(1.15) rotate(-2deg);
+    -webkit-transform: translateX(-125px) scale(1.05) rotate(-2deg);
+    -moz-transform: translateX(-125px) scale(1.05) rotate(-2deg);
     transform: translateX(-125px) scale(1.15) rotate(-2deg);
     text-shadow: 0px 0px 1px #868, 2px 2px 2px #979, 3px 3px 3px #a8a, 4px 4px 4px #b9b, 5px 5px 5px #cac, 6px 6px 6px #dbd, 7px 7px 7px #ece, 8px 8px 8px #fef }
 }
