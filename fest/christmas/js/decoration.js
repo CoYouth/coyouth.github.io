@@ -6,6 +6,7 @@ style.type = 'text/css';
 head.appendChild(style);
 document.onreadystatechange = function(){
     if(document.readyState=="complete"){
+        $("audio")[0].play();
         $('#loading').fadeOut(2000,function(){
             $('#merrychristmas').fadeIn(3000,function(){
                 $('#sincerely').fadeIn(1000);
